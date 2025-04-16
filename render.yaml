@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cherry-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MSG91_API_KEY
+        value: "447062A0aLF44zdiTt67ff6e25P1"
